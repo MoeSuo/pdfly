@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import Image from "next/image";
-import Txtcard from "@/components/txtcard";
+
 
 export default function Home() {
   return (
