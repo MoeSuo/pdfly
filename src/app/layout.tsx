@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 // ##################
 export const metadata: Metadata = {
-  title: "Chat With PDF's",
+  title: "Auth",
   description: "Smart AI Chat With PDF's Files",
   icons: {
     icon: [
