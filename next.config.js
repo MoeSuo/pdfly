@@ -5,6 +5,7 @@ const nextConfig = {
       "images.unsplash.com",
       "images.google.com",
       "lh3.googleusercontent.com",
+      "avatars.slack-edge.com",
     ],
   },
   async redirects() {
