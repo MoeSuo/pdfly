@@ -1,5 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    domains: [
+      "images.unsplash.com",
+      "images.google.com",
+      "lh3.googleusercontent.com",
+    ],
+  },
   async redirects() {
     return [
       {
@@ -20,11 +27,11 @@ const nextConfig = {
     ];
   },
 
-//   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-//     config.resolve.alias.canvas = false;
-//     config.resolve.alias.encoding = false;
-//     return config;
-//   },
+  //   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+  //     config.resolve.alias.canvas = false;
+  //     config.resolve.alias.encoding = false;
+  //     return config;
+  //   },
 };
 
 module.exports = nextConfig;
